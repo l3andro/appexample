@@ -8,9 +8,9 @@ plugins {
 description = 'Example of SonarQube Scanner for Gradle Usage'
 version = '1.0'
 
-sonarRunner {
+sonarqube {
     properties {
-        property 'sonar.projectName', 'Example of SonarQube Scanner for Gradle Usage'
+        property 'sonar.projectName', 'AppExample'
     }
 }
 
